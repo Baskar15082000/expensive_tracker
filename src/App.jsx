@@ -51,7 +51,7 @@ function App() {
     }
     sm(true);
     console.log(e.target.text);
-    cate = e.target.text;
+    setcate(e.target.text);
   }
   function deleteitem(id) {
     var c = expenses;
